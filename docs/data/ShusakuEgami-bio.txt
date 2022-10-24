@@ -1,0 +1,11 @@
+Shusaku Egami received his Ph.D. degree in engineering from The 
+University of Electro-Communications (UEC), Tokyo, Japan, in 2019. 
+From 2018 to 2019, he received Research Fellowship for Young 
+Scientists from Japan Society for the Promotion of Science. From 
+2019 to 2020, He was a researcher at the Electronic Navigation 
+Research Institute, Tokyo, Japan. He is currently a researcher at 
+the National Institute of Advanced Industrial Science and 
+Technology, Japan. He is also a part-time lecturer at Hosei 
+University, Tokyo, Japan, and a collaborative researcher at UEC. 
+His research interests include semantic web, ontologies, and 
+knowledge graphs.
