@@ -109,7 +109,7 @@
     </style>
 </head>
 
-<body itemscope itemtype="http://schema.org/Person">
+<body itemscope itemtype="http://schema.org/Person" itemid="https://profile.idease.info">
     <div id="wrapper">
         <section id="profile">
             <div id="summary">
@@ -159,7 +159,7 @@
         </ul> -->
 
         <section id="research">
-            <h2>Research</h2>
+            <h2 itemprop="name">Research</h2>
             <p>
                 I'm interested in semantic web, ontology, graph representation learning, and open data. Much of my research is about constructing and reasoning knowledge graphs from physical and cyber world (unstructured text, semistructured data, video, virtual space,
                 etc.).
@@ -184,17 +184,17 @@
                                 <img src='images/di.jpg' width="100%">
                             </div>
                         </td>
-                        <td class="paperdesc">
+                        <td class="paperdesc" itemscope itemtype="http://schema.org/ScholarlyArticle">
                             11.
-                            <a href="https://doi.org/10.1162/dint_a_00113">
-                                <papertitle>Detecting Vicious Cycles in Urban Problem Knowledge Graph using Inference Rules</papertitle>
+                            <a itemprop="url" href="https://doi.org/10.1162/dint_a_00113">
+                                <papertitle itemprop="name">Detecting Vicious Cycles in Urban Problem Knowledge Graph using Inference Rules</papertitle itemprop="name">
                             </a>
                             <br>
                             <strong>Shusaku Egami</strong>, Takahiro Kawamura, Kouji Kozaki, Akihiko Ohsuga
                             <br>
                             <em>Data Intelligence</em>, Vol.4, No.1, pp.88-111, 2022
-                            <br> DOI: <a href="https://doi.org/10.1162/dint_a_00113">https://doi.org/10.1162/dint_a_00113</a> (open access)
-                            <p>
+                            <br> DOI: <a itemprop="sameAs" href="https://doi.org/10.1162/dint_a_00113">https://doi.org/10.1162/dint_a_00113</a> (open access)
+                            <p itemprop="description">
                                 We extracted urban problem causality from various documents and structured the data as a KG. Then we detected vicious cycles and root problems using SPARQL and SWRL. Furthermore, urban-problem experts evaluated the extracted causal relations.
                             </p>
                         </td>
@@ -206,15 +206,15 @@
                                 <img src='images/campus_ontology.jpg' width="100%">
                             </div>
                         </td>
-                        <td class="paperdesc">
+                        <td class="paperdesc" itemscope itemtype="http://schema.org/ScholarlyArticle">
                             10.
                             <a href="https://doi.org/10.1541/ieejeiss.141.1222">
-                                <papertitle>Campus Ontology-Based Correlation Detection Among Heterogeneous Data Sets</papertitle>
+                                <papertitle itemprop="name">Campus Ontology-Based Correlation Detection Among Heterogeneous Data Sets</papertitle itemprop="name">
                             </a>
                             <br> Yuto Tsukagoshi, <strong>Shusaku Egami</strong>, Yuichi Sei, Yasuyuki Tahara, Akihiko Ohsuga
                             <br>
                             <em>IEEJ Transactions on Electronics</em>, Information and Systems, Vol.141, No.11, pp.1222-1233, 2021 (in Japanese)
-                            <br> DOI: <a href="https://doi.org/10.1541/ieejeiss.141.1222">https://doi.org/10.1541/ieejeiss.141.1222</a>
+                            <br> DOI: <a itemprop="sameAs" href="https://doi.org/10.1541/ieejeiss.141.1222">https://doi.org/10.1541/ieejeiss.141.1222</a>
                             <p></p>
                             <p>
                                 We collected unstructured data from a university campus and integrated it as a knowledge graph based on the proposed ontology.
@@ -228,17 +228,17 @@
                                 <img src='images/swimont.jpg' width="100%">
                             </div>
                         </td>
-                        <td class="paperdesc">
+                        <td class="paperdesc" itemscope itemtype="http://schema.org/ScholarlyArticle">
                             9.
                             <a href="https://doi.org/10.1527/tjsai.36-1_WI2-F">
-                                <papertitle>An Ontology-based Approach for Semantic Interoperability in Air Traffic Information Management</papertitle>
+                                <papertitle itemprop="name">An Ontology-based Approach for Semantic Interoperability in Air Traffic Information Management</papertitle itemprop="name">
                             </a> <br>
                             <strong>Shusaku Egami</strong>, Xiaodong Lu, Tadashi Koga, Yasuto Sumiya
                             <br>
                             <em>Transactions of the Japanese Society for Artificial Intelligence</em>, Vol.36, No.1, pp.WI2-F_1-12, 2021.1 (in Japanese)
                             <br>
                             <a href="https://www.enri.go.jp/~luxd/ontology/">project page</a> /
-                            <br> DOI: <a href="https://doi.org/10.1527/tjsai.36-1_WI2-F">https://doi.org/10.1527/tjsai.36-1_WI2-F</a> (open access)
+                            <br> DOI: <a itemprop="sameAs" href="https://doi.org/10.1527/tjsai.36-1_WI2-F">https://doi.org/10.1527/tjsai.36-1_WI2-F</a> (open access)
                             <p>
                                 We developed a reference ontology that enables common situational awareness of spatiotemporal concepts for semantic interoperability in air traffic information management.
                             </p>
@@ -252,16 +252,16 @@
                                 <img src='images/ieee_tem.jpg' width="100%">
                             </div>
                         </td>
-                        <td class="paperdesc">
+                        <td class="paperdesc" itemscope itemtype="http://schema.org/ScholarlyArticle">
                             8.
                             <a href="https://doi.org/10.1109/TEM.2019.2946886">
-                                <papertitle>Bilingual Textual Similarity in Scientific Documents</papertitle>
+                                <papertitle itemprop="name">Bilingual Textual Similarity in Scientific Documents</papertitle itemprop="name">
                             </a>
                             <br> Takahiro Kawamura, <strong>Shusaku Egami</strong>
                             <br>
                             <em>IEEE Transactions on Engineering Management</em>, Vol.68, No.5, 2021
                             <br><a href="https://warp.ndl.go.jp/info:ndljp/pid/11376099/jipsti.jst.go.jp/foresight/mapping_science/content-based_map/">project page</a> /
-                            <br> DOI: <a href="https://doi.org/10.1109/TEM.2019.2946886">https://doi.org/10.1109/TEM.2019.2946886</a> (open access)
+                            <br> DOI: <a itemprop="sameAs" href="https://doi.org/10.1109/TEM.2019.2946886">https://doi.org/10.1109/TEM.2019.2946886</a> (open access)
                             <p>
                                 We proposed a method for creating word and paragraph vectors corresponding to bilingual textual information in the same multidimensional space, aiming to construct a bilingual map of science.
                             </p>
@@ -274,16 +274,16 @@
                                 <img src='images/wordcloud.jpg' width="100%">
                             </div>
                         </td>
-                        <td class="paperdesc">
+                        <td class="paperdesc" itemscope itemtype="http://schema.org/ScholarlyArticle">
                             7.
                             <a href="https://doi.org/10.52731/ijscai.v3.i1.321">
-                                <papertitle>Construction of Urban Problem LOD using Crowdsourcing</papertitle>
+                                <papertitle itemprop="name">Construction of Urban Problem LOD using Crowdsourcing</papertitle itemprop="name">
                             </a>
                             <br>
                             <strong>Shusaku Egami</strong>, Takahiro Kawamura, Kouji Kozaki, Akihiko Ohsuga
                             <br>
                             <em>International Journal of Smart Computing and Artificial Intelligence</em>, Vol.3, No.1, pp.71-86, 2019
-                            <br> DOI: <a href="https://doi.org/10.52731/ijscai.v3.i1.321">https://doi.org/10.52731/ijscai.v3.i1.321</a> (open access)
+                            <br> DOI: <a itemprop="sameAs" href="https://doi.org/10.52731/ijscai.v3.i1.321">https://doi.org/10.52731/ijscai.v3.i1.321</a> (open access)
                             <p></p>
                             <p>We extracted causal relations using natural language processing and crowdsourcing to construct urban problem Linked Data.</p>
                         </td>
@@ -295,16 +295,16 @@
                                 <img src='images/fundingmap.jpg' width="100%">
                             </div>
                         </td>
-                        <td class="paperdesc">
+                        <td class="paperdesc" itemscope itemtype="http://schema.org/ScholarlyArticle">
                             6.
                             <a href="https://doi.org/10.1007/s11192-018-2783-x">
-                                <papertitle>Funding map using paragraph embedding based on semantic diversity</papertitle>
+                                <papertitle itemprop="name">Funding map using paragraph embedding based on semantic diversity</papertitle itemprop="name">
                             </a>
                             <br> Takahiro Kawamura, Katsutaro Watanabe, Naoya Matsumoto, <strong>Shusaku Egami</strong>, Mari Jibu
                             <br>
                             <em>Scientometrics</em>, Vol.116, pp.941-958, 2022
                             <br><a href="https://warp.ndl.go.jp/info:ndljp/pid/11376099/jipsti.jst.go.jp/foresight/mapping_science/content-based_map/">project page</a> /
-                            <br> DOI: <a href="https://doi.org/10.1007/s11192-018-2783-x">https://doi.org/10.1007/s11192-018-2783-x</a> (open access)
+                            <br> DOI: <a itemprop="sameAs" href="https://doi.org/10.1007/s11192-018-2783-x">https://doi.org/10.1007/s11192-018-2783-x</a> (open access)
                             <p></p>
                             <p>We proposed a new content-based method of locating research projects in a multi-dimensional space using the word/paragraph embedding techniques.</p>
                         </td>
@@ -316,17 +316,17 @@
                                 <img src='images/ieice_ipblod.jpg' width="100%">
                             </div>
                         </td>
-                        <td class="paperdesc">
+                        <td class="paperdesc" itemscope itemtype="http://schema.org/ScholarlyArticle">
                             5.
                             <a href="https://doi.org/10.1587/transinf.2017SWP0010">
-                                <papertitle>Temporal and Spatial Expansion of Urban LOD for Solving Illegally Parked Bicycles in Tokyo</papertitle>
+                                <papertitle itemprop="name">Temporal and Spatial Expansion of Urban LOD for Solving Illegally Parked Bicycles in Tokyo</papertitle itemprop="name">
                             </a>
                             <br>
                             <strong>Shusaku Egami</strong>, Takahiro Kawamura, Akihiko Ohsuga
                             <br>
                             <em>IEICE Transactions on Information and Systems</em>, Vol.E101-D, No.1, pp.116-129, 2018
                             <br>
-                            <br> DOI: <a href="https://doi.org/10.1587/transinf.2017SWP0010">https://doi.org/10.1587/transinf.2017SWP0010</a> (open access)
+                            <br> DOI: <a itemprop="sameAs" href="https://doi.org/10.1587/transinf.2017SWP0010">https://doi.org/10.1587/transinf.2017SWP0010</a> (open access)
                             <p>We complemented temporal and spatial missing data of the Linked Open Data (LOD) of the problem of illegally parked bicycles using bayesian networks and computational fluid dynamics.</p>
                         </td>
                     </tr>
@@ -337,16 +337,16 @@
                                 <img src='images/ijscai_ipblod.jpg' width="100%">
                             </div>
                         </td>
-                        <td class="paperdesc">
+                        <td class="paperdesc" itemscope itemtype="http://schema.org/ScholarlyArticle">
                             4.
                             <a href="https://doi.org/10.52731/ijscai.v1.i2.99">
-                                <papertitle>Designing and Publishing Illegally Parked Bicycle LOD</papertitle>
+                                <papertitle itemprop="name">Designing and Publishing Illegally Parked Bicycle LOD</papertitle itemprop="name">
                             </a>
                             <br>
                             <strong>Shusaku Egami</strong>, Takahiro Kawamura, Akihiko Ohsuga
                             <br>
                             <em>International Journal of Smart Computing and Artificial Intelligence</em>, Vol.1, No.2, pp.77-93, 2017
-                            <br> DOI: <a href="https://doi.org/10.52731/ijscai.v1.i2.99">https://doi.org/10.52731/ijscai.v1.i2.99</a> (open access)
+                            <br> DOI: <a itemprop="sameAs" href="https://doi.org/10.52731/ijscai.v1.i2.99">https://doi.org/10.52731/ijscai.v1.i2.99</a> (open access)
                             <p>
                                 We proposed a schema of illegally parked bicycle LOD (IPBLOD) and a methodology of designing LOD schema.</p>
                         </td>
@@ -359,16 +359,16 @@
                                 <img src='images/jsai_ipblod.jpg' width="100%">
                             </div>
                         </td>
-                        <td class="paperdesc">
+                        <td class="paperdesc" itemscope itemtype="http://schema.org/ScholarlyArticle">
                             3.
                             <a href="https://doi.org/10.1527/tjsai.AI30-K">
-                                <papertitle>Proposal of Eco-Cycle for Solving Illegally Parked Bicycles using Linked Open Data</papertitle>
+                                <papertitle itemprop="name">Proposal of Eco-Cycle for Solving Illegally Parked Bicycles using Linked Open Data</papertitle itemprop="name">
                             </a>
                             <br>
                             <strong>Shusaku Egami</strong>, Takahiro Kawamura, Akihiko Ohsuga
                             <br>
                             <em>Transactions of the Japanese Society for Artificial Intelligence</em>, Vol.31, No.6, pp.AI30-K_1-12, 2016 (in Japanese)
-                            <br>DOI: <a href="https://doi.org/10.1527/tjsai.AI30-K">https://doi.org/10.1527/tjsai.AI30-K</a> (open access)
+                            <br>DOI: <a itemprop="sameAs" href="https://doi.org/10.1527/tjsai.AI30-K">https://doi.org/10.1527/tjsai.AI30-K</a> (open access)
                             <p>We purposed eco-cycle for solving illegally parked bicycles using linked open data.</p>
                         </td>
                     </tr>
@@ -380,16 +380,16 @@
                                 <img src='images/tldks_ipblod.jpg' width="100%">
                             </div>
                         </td>
-                        <td class="paperdesc">
+                        <td class="paperdesc" itemscope itemtype="http://schema.org/ScholarlyArticle">
                             2.
                             <a href="https://doi.org/10.1007/978-3-662-53416-8_8">
-                                <papertitle>A Solution to Visualize Open Urban Data for Illegally Parked Bicycles</papertitle>
+                                <papertitle itemprop="name">A Solution to Visualize Open Urban Data for Illegally Parked Bicycles</papertitle itemprop="name">
                             </a>
                             <br>
                             <strong>Shusaku Egami</strong>, Takahiro Kawamura, Yuichi Sei, Yasuyuki Tahara, Akihiko Ohsuga
                             <br>
                             <em>Transactions on Large-Scale Data and Knowledge-Centered Systems XXVII</em>, Springer LNCS, Vol.9860, pp.129-141, 2016
-                            <br>DOI: <a href="https://doi.org/10.1007/978-3-662-53416-8_8">https://doi.org/10.1007/978-3-662-53416-8_8</a>
+                            <br>DOI: <a itemprop="sameAs" href="https://doi.org/10.1007/978-3-662-53416-8_8">https://doi.org/10.1007/978-3-662-53416-8_8</a>
                             <p>We built an ecosystem that generates Open Urban Data in Link Data format while complementing missing attribute values.</p>
                         </td>
                     </tr>
@@ -400,17 +400,17 @@
                                 <img src='images/ieice_nejilod.jpg' width="100%">
                             </div>
                         </td>
-                        <td class="paperdesc">
+                        <td class="paperdesc" itemscope itemtype="http://schema.org/ScholarlyArticle">
                             1.
                             <a href="http://id.nii.ac.jp/1438/00009010/">
-                                <papertitle>Building of Industrial Parts LOD for BOM Agent</papertitle>
+                                <papertitle itemprop="name">Building of Industrial Parts LOD for BOM Agent</papertitle itemprop="name">
                             </a>
                             <br>
                             <strong>Shusaku Egami</strong>, Takahiro Kawamura, Akihiro Fujii, Akihiko Ohsuga
                             <br>
                             <em>IEICE Transactions on Information and Systems</em>, Vol.J98-D, No.6, pp.992-1004, 2015 (in Japanese)
                             <br>CRES: <a href="http://id.nii.ac.jp/1438/00009010/">http://id.nii.ac.jp/1438/00009010/</a> (open access)
-                            <br>DOI: <a href="https://doi.org/10.1007/978-3-662-53416-8_8">https://doi.org/10.1007/978-3-662-53416-8_8</a>
+                            <br>DOI: <a itemprop="sameAs" href="https://doi.org/10.1007/978-3-662-53416-8_8">https://doi.org/10.1007/978-3-662-53416-8_8</a>
                             <p></p>
                             <p>We constructed a linked open data of industrial parts (screw LOD) to realize a business support agent that applies the screw LOD to the bill of materials (BOM).</p>
                         </td>
@@ -426,10 +426,10 @@
                                 <img src='images/toappear.jpg' width="100%">
                             </div>
                         </td>
-                        <td class="paperdesc">
+                        <td class="paperdesc" itemscope itemtype="http://schema.org/ScholarlyArticle">
                             29.
                             <a href="#">
-                                <papertitle>A Survey and Comparison of Activities of Daily Living Datasets in Real-life and Virtual Spaces</papertitle>
+                                <papertitle itemprop="name">A Survey and Comparison of Activities of Daily Living Datasets in Real-life and Virtual Spaces</papertitle itemprop="name">
                             </a>
                             <br> Swe Nwe Nwe Htun, <strong>Shusaku Egami</strong>, Ken Fukuda
                             <br>
@@ -447,10 +447,10 @@
                                 <img src='images/ijckg2022.jpg' width="100%">
                             </div>
                         </td>
-                        <td class="paperdesc">
+                        <td class="paperdesc" itemscope itemtype="http://schema.org/ScholarlyArticle">
                             28.
                             <a href="#">
-                                <papertitle>Contextualized Scene Knowledge Graphs for XAI Benchmarking</papertitle>
+                                <papertitle itemprop="name">Contextualized Scene Knowledge Graphs for XAI Benchmarking</papertitle itemprop="name">
                             </a>
                             <br> Takahiro Kawamura, <strong>Shusaku Egami</strong>, Kyoumoto Matsushita, Takanori Ugai, Ken Fukuda, Kouji Kozaki
                             <br>
@@ -468,10 +468,10 @@
                                 <img src='images/kgr4xai.jpg' width="100%">
                             </div>
                         </td>
-                        <td class="paperdesc">
+                        <td class="paperdesc" itemscope itemtype="http://schema.org/ScholarlyArticle">
                             27.
                             <a href="https://kgr4xai.ikgrc.org/papers/KGR4XAI_2021_paper_3_cr.pdf">
-                                <papertitle>A Criminal Detection of Mystery Novel Using the Principal Components Regression Analysis Considering Co-Occurrence Words</papertitle>
+                                <papertitle itemprop="name">A Criminal Detection of Mystery Novel Using the Principal Components Regression Analysis Considering Co-Occurrence Words</papertitle itemprop="name">
                             </a>
                             <br> Shuhei Katsushima, Hajime Anada, <strong>Shusaku Egami</strong>, Ken Fukuda
                             <br>
@@ -490,15 +490,15 @@
                                 <img src='images/ijckg2021.jpg' width="100%">
                             </div>
                         </td>
-                        <td class="paperdesc">
+                        <td class="paperdesc" itemscope itemtype="http://schema.org/ScholarlyArticle">
                             26.
                             <a href="https://doi.org/10.1145/3502223.3502239">
-                                <papertitle>Ontologies of Action and Object in Home Environment towards Injury Prevention</papertitle>
+                                <papertitle itemprop="name">Ontologies of Action and Object in Home Environment towards Injury Prevention</papertitle itemprop="name">
                             </a>
                             <br> Satoshi Nishimura, <strong>Shusaku Egami</strong>, Takanori Ugai, Mikiko Oono, Koji Kitamura, Ken Fukuda
                             <br>
                             <em>Proceedings of the 10th International Joint Conference on Knowledge Graphs (<a href="https://language-semantic.org/ijckg2021/">IJCKG2021</a>)</em>, 2021
-                            <br> DOI: <a href="https://doi.org/10.1145/3502223.3502239">https://doi.org/10.1145/3502223.3502239</a>
+                            <br> DOI: <a itemprop="sameAs" href="https://doi.org/10.1145/3502223.3502239">https://doi.org/10.1145/3502223.3502239</a>
                             <br>
                             <a href="https://github.com/aistairc/PrimitiveActionOntology">data1</a> / <a href="https://github.com/aistairc/HomeObjectOntology">data2</a>
                             <p>
@@ -513,16 +513,16 @@
                                 <img src='images/ictai2021.jpg' width="100%">
                             </div>
                         </td>
-                        <td class="paperdesc">
+                        <td class="paperdesc" itemscope itemtype="http://schema.org/ScholarlyArticle">
                             25.
                             <a href="https://doi.org/10.1109/ICTAI52525.2021.00194">
-                                <papertitle>A Framework for Constructing and Augmenting Knowledge Graphs using Virtual Space: Towards Analysis of Daily Activities</papertitle>
+                                <papertitle itemprop="name">A Framework for Constructing and Augmenting Knowledge Graphs using Virtual Space: Towards Analysis of Daily Activities</papertitle itemprop="name">
                             </a>
                             <br>
                             <strong>Shusaku Egami</strong>, Satoshi Nishimura, Ken Fukuda
                             <br>
                             <em>Proceedings of the 33rd IEEE International Conference on Tools with Artificial Intelligence (<a href="https://ictai.computer.org/2021">ICTAI2021</a>)</em>, pp.1226-1230, 2021
-                            <br> DOI: <a hred="https://doi.org/10.1109/ICTAI52525.2021.00194">https://doi.org/10.1109/ICTAI52525.2021.00194</a>
+                            <br> DOI: <a itemprop="sameAs" hred="https://doi.org/10.1109/ICTAI52525.2021.00194">https://doi.org/10.1109/ICTAI52525.2021.00194</a>
                             <br>
                             <a href="https://github.com/aistairc/VirtualHome2KG">code</a>
                             <p>
@@ -538,10 +538,10 @@
                                 <img src='images/iswc2021.jpg' width="100%">
                             </div>
                         </td>
-                        <td class="paperdesc">
+                        <td class="paperdesc" itemscope itemtype="http://schema.org/ScholarlyArticle">
                             24.
                             <a href="http://ceur-ws.org/Vol-2980/paper381.pdf">
-                                <papertitle>VirtualHome2KG: Constructing and Augmenting Knowledge Graphs of Daily Activities Using Virtual Space</papertitle>
+                                <papertitle itemprop="name">VirtualHome2KG: Constructing and Augmenting Knowledge Graphs of Daily Activities Using Virtual Space</papertitle itemprop="name">
                             </a>
                             <br>
                             <strong>Shusaku Egami</strong>, Satoshi Nishimura, Ken Fukuda
@@ -561,15 +561,15 @@
                                 <img src='images/icns2021.jpg' width="100%">
                             </div>
                         </td>
-                        <td class="paperdesc">
+                        <td class="paperdesc" itemscope itemtype="http://schema.org/ScholarlyArticle">
                             23.
                             <a href="https://doi.org/10.1109/ICNS52807.2021.9441620">
-                                <papertitle>Flight Tests for Expanding AeroMACS Coverage and Air-Ground SWIM Demonstration</papertitle>
+                                <papertitle itemprop="name">Flight Tests for Expanding AeroMACS Coverage and Air-Ground SWIM Demonstration</papertitle itemprop="name">
                             </a>
                             <br>Kazuyuki Morioka, Xiaodong Lu, Junichi Naganawa, Akinori Murata, <strong>Shusaku Egami</strong>, Norihiko Miyazaki, Naruto Yonemoto, Akiko Kohmura
                             <br>
                             <em>Integrated Communications, Navigation and Surveillance Conference (<a href="https://i-cns.org/icns-2021/">ICNS2021</a>)</em>, pp.1-8, 2021
-                            <br> DOI: <a href="https://doi.org/10.1109/ICNS52807.2021.9441620">https://doi.org/10.1109/ICNS52807.2021.9441620</a>
+                            <br> DOI: <a itemprop="sameAs" href="https://doi.org/10.1109/ICNS52807.2021.9441620">https://doi.org/10.1109/ICNS52807.2021.9441620</a>
                             <p></p>
                             <p>We carried out flight experiments using Aeronautical Mobile Airport Communications System (AeroMACS) and System Wide Information Management (SWIM) prototype system.</p>
                         </td>
@@ -581,15 +581,15 @@
                                 <img src='images/eiwac2019.jpg' width="100%">
                             </div>
                         </td>
-                        <td class="paperdesc">
+                        <td class="paperdesc" itemscope itemtype="http://schema.org/ScholarlyArticle">
                             22.
                             <a href="https://doi.org/10.1007/978-981-33-4669-7_17">
-                                <papertitle>Air/Ground SWIM Integration to Achieve Information Collaborative Environment</papertitle>
+                                <papertitle itemprop="name">Air/Ground SWIM Integration to Achieve Information Collaborative Environment</papertitle itemprop="name">
                             </a>
                             <br>Xiaodong Lu, Kazuyuki Morioka, <strong>Shusaku Egami</strong>, Tadashi Koga, Yasuto Sumiya, Junichi Naganawa, Naruto Yonemoto
                             <br>
                             <em>Air Traffic Management and Systems IV: Selected Papers of the 6th ENRI International Workshop on ATM/CNS (<a href="https://www.enri.go.jp/eiwac/eiwac_2019_eng.html">EIWAC2019</a>)</em>, 2021
-                            <br> DOI: <a href="https://doi.org/10.1007/978-981-33-4669-7_17">https://doi.org/10.1007/978-981-33-4669-7_17</a>
+                            <br> DOI: <a itemprop="sameAs" href="https://doi.org/10.1007/978-981-33-4669-7_17">https://doi.org/10.1007/978-981-33-4669-7_17</a>
                             <p>The development of a practical validation system of ground taxiing experiment for A/G SWIM integration.</p>
                         </td>
                     </tr>
@@ -600,15 +600,15 @@
                                 <img src='images/aike2020.jpg' width="100%">
                             </div>
                         </td>
-                        <td class="paperdesc">
+                        <td class="paperdesc" itemscope itemtype="http://schema.org/ScholarlyArticle">
                             21.
                             <a href="https://doi.org/10.1109/AIKE48582.2020.00014">
-                                <papertitle>Ontology-Based Correlation Detection Among Heterogeneous Data Sets</papertitle>
+                                <papertitle itemprop="name">Ontology-Based Correlation Detection Among Heterogeneous Data Sets</papertitle itemprop="name">
                             </a>
                             <br> Yuto Tsukagoshi, <strong>Shusaku Egami</strong>, Yuichi Sei, Yasuyuki Tahara, Akihiko Ohsuga
                             <br>
                             <em>Proceedings of the Third IEEE International Conference on Artificial Intelligence and Knowledge Engineering (<a href="https://semanticcomputing.wixsite.com/aike2020">AIKE2020</a>)</em>, pp.25-32, 2020
-                            <br> DOI: <a href="https://doi.org/10.1109/AIKE48582.2020.00014">https://doi.org/10.1109/AIKE48582.2020.00014</a>
+                            <br> DOI: <a itemprop="sameAs" href="https://doi.org/10.1109/AIKE48582.2020.00014">https://doi.org/10.1109/AIKE48582.2020.00014</a>
                             <p>We focused on a university campus as an example of a small organization and propose an ontology that enables the cross-sectional analysis of various data.</p>
                         </td>
                     </tr>
@@ -619,10 +619,10 @@
                                 <img src='images/icsc2020.jpg' width="100%">
                             </div>
                         </td>
-                        <td class="paperdesc">
+                        <td class="paperdesc" itemscope itemtype="http://schema.org/ScholarlyArticle">
                             20.
                             <a href="https://doi.org/10.1109/ICSC.2020.00059">
-                                <papertitle>Ontology-Based Data Integration for Semantic Interoperability in Air Traffic Management</papertitle>
+                                <papertitle itemprop="name">Ontology-Based Data Integration for Semantic Interoperability in Air Traffic Management</papertitle itemprop="name">
                             </a>
                             <br>
                             <strong>Shusaku Egami</strong>, Xiaodong Lu, Tadashi Koga, Yasuto Sumiya
@@ -630,7 +630,7 @@
                             <em>Proceedings of the 14th IEEE International Conference on Semantic Computing (<a href="https://semanticcomputing.wixsite.com/website-5">ICSC2020</a>)</em>, pp.295-302, 2021
                             <br>
                             <a href="https://www.enri.go.jp/~luxd/ontology/">project page</a> /
-                            <br> DOI: <a href="https://doi.org/10.1109/ICSC.2020.00059">https://doi.org/10.1109/ICSC.2020.00059</a>
+                            <br> DOI: <a itemprop="sameAs" href="https://doi.org/10.1109/ICSC.2020.00059">https://doi.org/10.1109/ICSC.2020.00059</a>
                             <p>We construct domain ontologies based on flight, aeronautical, and weather information exchange models. Furthermore, we confirmed the applicability of flexible searching in heterogeneous ATM data using SPARQL and ontology reasoning.
                             </p>
                         </td>
@@ -642,10 +642,10 @@
                                 <img src='images/jist2019.jpg' width="100%">
                             </div>
                         </td>
-                        <td class="paperdesc">
+                        <td class="paperdesc" itemscope itemtype="http://schema.org/ScholarlyArticle">
                             19.
                             <a href="https://doi.org/10.1007/978-3-030-41407-8_2">
-                                <papertitle>Report on the First Knowledge Graph Reasoning Challenge 2018 - Toward the eXplainable AI System -</papertitle>
+                                <papertitle itemprop="name">Report on the First Knowledge Graph Reasoning Challenge 2018 - Toward the eXplainable AI System -</papertitle itemprop="name">
                             </a>
                             <br> Takahiro Kawamura, <strong>Shusaku Egami</strong>, Koutarou Tamura, Yasunori Hokazono, Takanori Ugai, Yusuke Koyanagi, Fumihito Nishino, Seiji Okajima, Katsuhiko Murakami, Kunihiko Takamatsu, Aoi Sugiura, Shun Shiramatsu,
                             Shawn Zhang, Kouji Kozaki
@@ -653,7 +653,7 @@
                             <em>Proceedings of the 9th Joint International Semantic Technology Conference (<a href="http://jist2019.openkg.cn/">JIST2019</a>)</em>, Springer LNCS, Vol.12032, pp.18-34, 2019
                             <br>
                             <a href="https://challenge.knowledge-graph.jp/2018/">project page</a> / <a href="https://github.com/KnowledgeGraphJapan/KGRC-RDF">data</a> / <a href="https://doi.org/10.48550/arXiv.1908.08184">arXiv</a> / <a href="https://www.slideshare.net/KnowledgeGraph/report-on-the-first-knowledge-graph-reasoning-challenge-2018-toward-the-explainable-ai-system">slideshare</a>
-                            <br> DOI: <a href="https://doi.org/10.1007/978-3-030-41407-8_2">https://doi.org/10.1007/978-3-030-41407-8_2</a>
+                            <br> DOI: <a itemprop="sameAs" href="https://doi.org/10.1007/978-3-030-41407-8_2">https://doi.org/10.1007/978-3-030-41407-8_2</a>
                             <p>We organized a challenge calling for techniques that reason and/or estimate which characters are criminals while providing a reasonable explanation based on an open knowledge graph of a well-known Sherlock Holmes mystery story.
                             </p>
                         </td>
@@ -665,10 +665,10 @@
                                 <img src='images/gcce2019.jpg' width="100%">
                             </div>
                         </td>
-                        <td class="paperdesc">
+                        <td class="paperdesc" itemscope itemtype="http://schema.org/ScholarlyArticle">
                             18.
                             <a href="https://doi.org/10.1109/GCCE46687.2019.9015574">
-                                <papertitle>Enriching Geospatial Representation for Ontology-based Aviation Information Exchange</papertitle>
+                                <papertitle itemprop="name">Enriching Geospatial Representation for Ontology-based Aviation Information Exchange</papertitle itemprop="name">
                             </a>
                             <br>
                             <strong>Shusaku Egami</strong>, Xiadong Lu, Tadashi Koga, Yasuto Sumiya
@@ -676,7 +676,7 @@
                             <em>Proceedings of the 8th IEEE Global Conference on Consumer Electronics (<a href="https://www.ieee-gcce.org/2019/">GCCE2019</a>)</em>, pp.242-243, 2019
                             <br>
                             <a href="https://www.enri.go.jp/~luxd/ontology/">project page</a> /
-                            <br> DOI: <a href="https://doi.org/10.1109/GCCE46687.2019.9015574">https://doi.org/10.1109/GCCE46687.2019.9015574</a>
+                            <br> DOI: <a itemprop="sameAs" href="https://doi.org/10.1109/GCCE46687.2019.9015574">https://doi.org/10.1109/GCCE46687.2019.9015574</a>
                             <p>We proposed a method for extending the geospatial representation of the existing aviation ontology.</p>
                         </td>
                     </tr>
@@ -687,10 +687,10 @@
                                 <img src='images/jist2018.jpg' width="100%">
                             </div>
                         </td>
-                        <td class="paperdesc">
+                        <td class="paperdesc" itemscope itemtype="http://schema.org/ScholarlyArticle">
                             17.
                             <a href="http://ceur-ws.org/Vol-2293/jist2018pd_paper10.pdf">
-                                <papertitle>Predicting Urban Problems: A Comparison of Graph-based and Image-based Methods</papertitle>
+                                <papertitle itemprop="name">Predicting Urban Problems: A Comparison of Graph-based and Image-based Methods</papertitle itemprop="name">
                             </a>
                             <br>
                             <strong>Shusaku Egami</strong>, Takahiro Kawamura, Akihiko Ohsuga
@@ -708,10 +708,10 @@
                                 <img src='images/sti2018.jpg' width="100%">
                             </div>
                         </td>
-                        <td class="paperdesc">
+                        <td class="paperdesc" itemscope itemtype="http://schema.org/ScholarlyArticle">
                             16.
                             <a href="https://hdl.handle.net/1887/65248">
-                                <papertitle>Content-based Map of Science using Cross-lingual Document Embedding - A Comparison of US-Japan Funded Projects</papertitle>
+                                <papertitle itemprop="name">Content-based Map of Science using Cross-lingual Document Embedding - A Comparison of US-Japan Funded Projects</papertitle itemprop="name">
                             </a>
                             <br> Takahiro Kawamura, Katsutaro Watanabe, <strong>Shusaku Egami</strong>, Naoya Matsumoto, Mari Jibu
                             <br>
@@ -729,15 +729,15 @@
                                 <img src='images/icsc2018.jpg' width="100%">
                             </div>
                         </td>
-                        <td class="paperdesc">
+                        <td class="paperdesc" itemscope itemtype="http://schema.org/ScholarlyArticle">
                             15.
                             <a href="https://doi.org/10.1109/ICSC.2018.00034">
-                                <papertitle>Urban Problem LOD for Understanding the Problem Structure and Detecting Vicious Cycles</papertitle>
+                                <papertitle itemprop="name">Urban Problem LOD for Understanding the Problem Structure and Detecting Vicious Cycles</papertitle itemprop="name">
                             </a>
                             <br> <strong>Shusaku Egami</strong>, Takahiro Kawamura, Kouji Kozaki, Akihiko Ohsuga
                             <br>
                             <em>Proceedings of the 12th IEEE International Conference on Semantic Computing (<a href="https://semanticcomputing.wixsite.com/icsc2018">ICSC2018</a>)</em>, pp.186-193, 2018
-                            <br>DOI: <a href="https://doi.org/10.1109/ICSC.2018.00034">https://doi.org/10.1109/ICSC.2018.00034</a>
+                            <br>DOI: <a itemprop="sameAs" href="https://doi.org/10.1109/ICSC.2018.00034">https://doi.org/10.1109/ICSC.2018.00034</a>
                             <p>We proposed a method to detect root problems that lead to the vicious cycles of urban problems using SPARQL and SWRL.</p>
                         </td>
                     </tr>
@@ -748,15 +748,15 @@
                                 <img src='images/k-cap2017.jpg' width="100%">
                             </div>
                         </td>
-                        <td class="paperdesc">
+                        <td class="paperdesc" itemscope itemtype="http://schema.org/ScholarlyArticle">
                             14.
                             <a href="https://doi.org/10.1145/3148011.3148018">
-                                <papertitle>Science Graph for characterizing the recent scientific landscape using Paragraph Vectors</papertitle>
+                                <papertitle itemprop="name">Science Graph for characterizing the recent scientific landscape using Paragraph Vectors</papertitle itemprop="name">
                             </a>
                             <br> Takahiro Kawamura, Katsutaro Watanabe, Naoya Matsumoto, <strong>Shusaku Egami</strong>, Mari Jibu
                             <br>
                             <em>Proceedings of the 9th International Conference on Knowledge Capture (<a href="https://k-cap2017.org/">K-CAP2017</a>)</em>, pp.2:1-2:8, 2017
-                            <br>DOI: <a href="https://doi.org/10.1145/3148011.3148018">https://doi.org/10.1145/3148011.3148018</a>
+                            <br>DOI: <a itemprop="sameAs" href="https://doi.org/10.1145/3148011.3148018">https://doi.org/10.1145/3148011.3148018</a>
                             <p>We proposed a new content-based method of locating research projects in a multi-dimensional space using the word/paragraph embedding techniques.</p>
                         </td>
                     </tr>
@@ -767,16 +767,16 @@
                                 <img src='images/jist2017.jpg' width="100%">
                             </div>
                         </td>
-                        <td class="paperdesc">
+                        <td class="paperdesc" itemscope itemtype="http://schema.org/ScholarlyArticle">
                             13.
                             <a href="https://doi.org/10.1145/3148011.3148018">
-                                <papertitle>Linked Urban Open Data Including Social Problems' Causality and Their Costs</papertitle>
+                                <papertitle itemprop="name">Linked Urban Open Data Including Social Problems' Causality and Their Costs</papertitle itemprop="name">
                             </a>
                             <br> <strong>Shusaku Egami</strong>, Takahiro Kawamura, Kouji Kozaki, Akihiko Ohsuga
                             <br>
                             <em>Proceedings of the 7th Joint International Semantic Technology Conference (<a href="http://www.ict.griffith.edu.au/aist/jist2017/JIST.php?id=home">JIST2017</a>)</em>, Springer LNCS, Vol.10675, pp.334-349, 2017
                             <br><span style="color:red"><strong>Selected for Best Paper Nominee</strong></span>
-                            <br>DOI: <a href="https://doi.org/10.1007/978-3-319-70682-5_23">https://doi.org/10.1007/978-3-319-70682-5_23</a>
+                            <br>DOI: <a itemprop="sameAs" href="https://doi.org/10.1007/978-3-319-70682-5_23">https://doi.org/10.1007/978-3-319-70682-5_23</a>
                             <p>We constructed Linked Open Data (LOD) that include causal relations of urban problems and the related cost information in the budget.</p>
                         </td>
                     </tr>
@@ -787,15 +787,15 @@
                                 <img src='images/jist2017_short.jpg' width="100%">
                             </div>
                         </td>
-                        <td class="paperdesc">
+                        <td class="paperdesc" itemscope itemtype="http://schema.org/ScholarlyArticle">
                             12.
                             <a href="https://doi.org/10.1007/978-3-319-70682-5_20">
-                                <papertitle>User Participatory construction of Open Hazard Data for Preventing Bicycle Accidents</papertitle>
+                                <papertitle itemprop="name">User Participatory construction of Open Hazard Data for Preventing Bicycle Accidents</papertitle itemprop="name">
                             </a>
                             <br> Ryohei Kozu, Takahiro Kawamura, <strong>Shusaku Egami</strong>, Yuichi Sei, Yasuyuki Tahara, Akihiko Ohsuga
                             <br>
                             <em>Proceedings of the 7th Joint International Semantic Technology Conference (<a href="http://www.ict.griffith.edu.au/aist/jist2017/JIST.php?id=home">JIST2017</a>)</em>, Springer LNCS, Vol.10675, pp.289-303, 2017
-                            <br>DOI: <a href="https://doi.org/10.1007/978-3-319-70682-5_20">https://doi.org/10.1007/978-3-319-70682-5_23</a>
+                            <br>DOI: <a itemprop="sameAs" href="https://doi.org/10.1007/978-3-319-70682-5_20">https://doi.org/10.1007/978-3-319-70682-5_23</a>
                             <p>We detected locations with high possibility of bicycle accidents using user participatory sensing and published as Open Hazard Data (OHD).</p>
                         </td>
                     </tr>
@@ -806,10 +806,10 @@
                                 <img src='images/iswc2017.jpg' width="100%">
                             </div>
                         </td>
-                        <td class="paperdesc">
+                        <td class="paperdesc" itemscope itemtype="http://schema.org/ScholarlyArticle">
                             11.
                             <a href="http://ceur-ws.org/Vol-1963/paper513.pdf">
-                                <papertitle>Science Graph for characterizing the recent scientific landscape</papertitle>
+                                <papertitle itemprop="name">Science Graph for characterizing the recent scientific landscape</papertitle itemprop="name">
                             </a>
                             <br>Takahiro Kawamura, Katsutaro Watanabe, Naoya Matsumoto, <strong>Shusaku Egami</strong>, Mari Jibu
                             <br>
@@ -825,15 +825,15 @@
                                 <img src='images/scai2017.jpg' width="100%">
                             </div>
                         </td>
-                        <td class="paperdesc">
+                        <td class="paperdesc" itemscope itemtype="http://schema.org/ScholarlyArticle">
                             10.
                             <a href="https://doi.org/10.1109/IIAI-AAI.2017.189">
-                                <papertitle>Construction of Linked Urban Problem Data with Causal Relations using Crowdsourcing</papertitle>
+                                <papertitle itemprop="name">Construction of Linked Urban Problem Data with Causal Relations using Crowdsourcing</papertitle itemprop="name">
                             </a>
                             <br><strong>Shusaku Egami</strong>, Takahiro Kawamura, Kouji Kozaki, Akihiko Ohsuga
                             <br>
                             <em>Proceedings of the 6th IIAI International Congress on Advanced Applied Informatics (<a href="https://www.iaiai.org/conference/aai2017/">IIAI-AAI2017</a>)</em>, pp.814-819, 2017
-                            <br>DOI: <a href="https://doi.org/10.1109/IIAI-AAI.2017.189">https://doi.org/10.1109/IIAI-AAI.2017.189</a>
+                            <br>DOI: <a itemprop="sameAs" href="https://doi.org/10.1109/IIAI-AAI.2017.189">https://doi.org/10.1109/IIAI-AAI.2017.189</a>
                             <p>We proposed a method for semi-automatic construction of Linked Data with the causality of urban problems, based on web pages and open government data.</p>
                         </td>
                     </tr>
@@ -844,15 +844,15 @@
                                 <img src='images/jist2016.jpg' width="100%">
                             </div>
                         </td>
-                        <td class="paperdesc">
+                        <td class="paperdesc" itemscope itemtype="http://schema.org/ScholarlyArticle">
                             9.
                             <a href="https://doi.org/10.1007/978-3-319-50112-3_12">
-                                <papertitle>Estimation of Spatio-temporal Missing Data for Expanding Urban LOD</papertitle>
+                                <papertitle itemprop="name">Estimation of Spatio-temporal Missing Data for Expanding Urban LOD</papertitle itemprop="name">
                             </a>
                             <br><strong>Shusaku Egami</strong>, Takahiro Kawamura, Akihiko Ohsuga
                             <br>
                             <em>Proceedings of the 6th Joint International Semantic Technology Conference (JIST2016)</em>, Springer LNCS, Vol.10055, pp.152-167, 2016
-                            <br>DOI: <a href="https://doi.org/10.1007/978-3-319-50112-3_12">https://doi.org/10.1007/978-3-319-50112-3_12</a>
+                            <br>DOI: <a itemprop="sameAs" href="https://doi.org/10.1007/978-3-319-50112-3_12">https://doi.org/10.1007/978-3-319-50112-3_12</a>
                             <p>We proposed and evaluated a method for estimating spatially missing data using computational fluid dynamics (CFD) for expanding urban LOD.</p>
                         </td>
                     </tr>
@@ -863,15 +863,15 @@
                                 <img src='images/jist2016_short.jpg' width="100%">
                             </div>
                         </td>
-                        <td class="paperdesc">
+                        <td class="paperdesc" itemscope itemtype="http://schema.org/ScholarlyArticle">
                             8.
                             <a href="https://doi.org/10.1007/978-3-319-50112-3_10">
-                                <papertitle>Linked Data Collection and Analysis Platform for Music Information Retrieval</papertitle>
+                                <papertitle itemprop="name">Linked Data Collection and Analysis Platform for Music Information Retrieval</papertitle itemprop="name">
                             </a>
                             <br>Yuri Uehara, Takahiro Kawamura, <strong>Shusaku Egami</strong>, Yuichi Sei, Yasuyuki Tahara, Akihiko Ohsuga
                             <br>
                             <em>Proceedings of the 6th Joint International Semantic Technology Conference (JIST2016)</em>, Springer LNCS, Vol.10055, pp.127-135, 2016
-                            <br>DOI: <a href="https://doi.org/10.1007/978-3-319-50112-3_10">https://doi.org/10.1007/978-3-319-50112-3_10</a>
+                            <br>DOI: <a itemprop="sameAs" href="https://doi.org/10.1007/978-3-319-50112-3_10">https://doi.org/10.1007/978-3-319-50112-3_10</a>
                             <p>We represented the music data with Linked Data, which are in a format suitable for computer processing, and also link data fragments to each other.</p>
                         </td>
                     </tr>
@@ -882,10 +882,10 @@
                                 <img src='images/jist2016_pd.jpg' width="100%">
                             </div>
                         </td>
-                        <td class="paperdesc">
+                        <td class="paperdesc" itemscope itemtype="http://schema.org/ScholarlyArticle">
                             7.
                             <a href="http://ceur-ws.org/Vol-1741/jist2016pd_paper10.pdf">
-                                <papertitle>Estimation of Spatial Missing Data for Expnading Urban LOD</papertitle>
+                                <papertitle itemprop="name">Estimation of Spatial Missing Data for Expnading Urban LOD</papertitle itemprop="name">
                             </a>
                             <br><strong>Shusaku Egami</strong>, Takahiro Kawamura, Akihiko Ohsuga
                             <br>
@@ -901,10 +901,10 @@
                                 <img src='images/jist2016_short_pd.jpg' width="100%">
                             </div>
                         </td>
-                        <td class="paperdesc">
+                        <td class="paperdesc" itemscope itemtype="http://schema.org/ScholarlyArticle">
                             6.
                             <a href="http://ceur-ws.org/Vol-1741/jist2016pd_paper9.pdf">
-                                <papertitle>Linked Data Collection and Analysis Platform of Audio Features</papertitle>
+                                <papertitle itemprop="name">Linked Data Collection and Analysis Platform of Audio Features</papertitle itemprop="name">
                             </a>
                             <br>Yuri Uehara, Takahiro Kawamura, <strong>Shusaku Egami</strong>, Yuichi Sei, Yasuyuki Tahara, Akihiko Ohsuga
                             <br>
@@ -920,15 +920,15 @@
                                 <img src='images/iswc2016.jpg' width="100%">
                             </div>
                         </td>
-                        <td class="paperdesc">
+                        <td class="paperdesc" itemscope itemtype="http://schema.org/ScholarlyArticle">
                             5.
                             <a href="https://doi.org/10.1007/978-3-319-46547-0_28">
-                                <papertitle>Building Urban LOD for Solving Illegally Parked Bicycles in Tokyo</papertitle>
+                                <papertitle itemprop="name">Building Urban LOD for Solving Illegally Parked Bicycles in Tokyo</papertitle itemprop="name">
                             </a>
                             <br><strong>Shusaku Egami</strong>, Takahiro Kawamura, Akihiko Ohsuga
                             <br>
                             <em>Proceedings of the 15th International Semantic Web Conference (<a href="https://iswc2016.semanticweb.org/">ISWC2016</a>)</em>, Springer LNCS, Vol.9982, pp.291-307, 2016
-                            <br>DOI: <a href="https://doi.org/10.1007/978-3-319-46547-0_28">https://doi.org/10.1007/978-3-319-46547-0_28</a>
+                            <br>DOI: <a itemprop="sameAs" href="https://doi.org/10.1007/978-3-319-46547-0_28">https://doi.org/10.1007/978-3-319-46547-0_28</a>
                             <p>We proposed a method for sustainably building urban LOD to solve the illegally parked bicycle problem and applied them to Tokyo and other urban areas.</p>
                         </td>
                     </tr>
@@ -939,15 +939,15 @@
                                 <img src='images/scai2016.jpg' width="100%">
                             </div>
                         </td>
-                        <td class="paperdesc">
+                        <td class="paperdesc" itemscope itemtype="http://schema.org/ScholarlyArticle">
                             4.
                             <a href="https://doi.org/10.1109/IIAI-AAI.2016.226">
-                                <papertitle>Schema Design of Illegally Parked Bicycles LOD</papertitle>
+                                <papertitle itemprop="name">Schema Design of Illegally Parked Bicycles LOD</papertitle itemprop="name">
                             </a>
                             <br><strong>Shusaku Egami</strong>, Takahiro Kawamura, Yuichi Sei, Yasuyuki Tahara, Akihiko Ohsuga
                             <br>
                             <em>Proceedings of the 5th IIAI International Congress on Advanced Applied Informatics (<a href="https://www.iaiai.org/conference/aai2016/">IIAI-AAI2016</a>)</em>, pp.692-697, 2016
-                            <br>DOI: <a href="https://doi.org/10.1109/IIAI-AAI.2016.226">https://doi.org/10.1109/IIAI-AAI.2016.226</a>
+                            <br>DOI: <a itemprop="sameAs" href="https://doi.org/10.1109/IIAI-AAI.2016.226">https://doi.org/10.1109/IIAI-AAI.2016.226</a>
                             <p>We proposed a schema design of illegally parked bicycles LOD and a methodology of designing LOD schema.</p>
                         </td>
                     </tr>
@@ -958,10 +958,10 @@
                                 <img src='images/complexity.jpg' width="100%">
                             </div>
                         </td>
-                        <td class="paperdesc">
+                        <td class="paperdesc" itemscope itemtype="http://schema.org/ScholarlyArticle">
                             <!-- <a href="#"> -->
                             3.
-                            <papertitle>Visualization of Open Urban Data for Illegally Parked Bicycles</papertitle>
+                            <papertitle itemprop="name">Visualization of Open Urban Data for Illegally Parked Bicycles</papertitle itemprop="name">
                             <!-- </a> -->
                             <br><strong>Shusaku Egami</strong>, Takahiro Kawamura, Yuichi Sei, Yasuyuki Tahara, Akihiko Ohsuga
                             <br>
@@ -977,15 +977,15 @@
                                 <img src='images/jist2014.jpg' width="100%">
                             </div>
                         </td>
-                        <td class="paperdesc">
+                        <td class="paperdesc" itemscope itemtype="http://schema.org/ScholarlyArticle">
                             2.
                             <a href="https://doi.org/10.1007/978-3-319-15615-6_11">
-                                <papertitle>Building of Industrial Parts LOD for EDI - A Case Study -</papertitle>
+                                <papertitle itemprop="name">Building of Industrial Parts LOD for EDI - A Case Study -</papertitle itemprop="name">
                             </a>
                             <br><strong>Shusaku Egami</strong>, Takahiro Kawamura, Akihiro Fujii, Akihiko Ohsuga
                             <br>
                             <em>Proceedings of the 4th Joint International Semantic Technology Conference (<a href="https://language-semantic.org/jist2014/">JIST2014</a>)</em>, Springer LNCS, Vol.8943, pp.146-161, 2014
-                            <br>DOI: <a href="https://doi.org/10.1007/978-3-319-15615-6_11">https://doi.org/10.1007/978-3-319-15615-6_11</a>
+                            <br>DOI: <a itemprop="sameAs" href="https://doi.org/10.1007/978-3-319-15615-6_11">https://doi.org/10.1007/978-3-319-15615-6_11</a>
                             <br>
                             <p>We built industrial parts Linked Open Data (LOD), which we called "N-ken LOD" based on a screw product code system (N-ken Code). Then we linked it to external datasets like DBpedia and built product supplier relations to support
                                 the EDI.</p>
@@ -998,10 +998,10 @@
                                 <img src='images/jist2013.jpg' width="100%">
                             </div>
                         </td>
-                        <td class="paperdesc">
+                        <td class="paperdesc" itemscope itemtype="http://schema.org/ScholarlyArticle">
                             1.
                             <a href="http://ceur-ws.org/Vol-1192/LDPWpaper3.pdf">
-                                <papertitle>EDI support with LOD</papertitle>
+                                <papertitle itemprop="name">EDI support with LOD</papertitle itemprop="name">
                             </a>
                             <br>Akihiro Fujii, <strong>Shusaku Egami</strong>, Hiroyasu Shimizu
                             <br>
@@ -1024,16 +1024,16 @@
                                 <img src='images/intech.jpg' width="100%">
                             </div>
                         </td>
-                        <td class="paperdesc">
+                        <td class="paperdesc" itemscope itemtype="http://schema.org/ScholarlyArticle">
                             11.
                             <a href="http://doi.org/10.5772/intechopen.77067">
-                                <papertitle>Chapter 11 - Mapping Science based on research content similarity -</papertitle>
+                                <papertitle itemprop="name">Chapter 11 - Mapping Science based on research content similarity -</papertitle itemprop="name">
                             </a>
                             <br> Takahiro Kawamura, Katsutaro Watanabe, Naoya Matsumoto, <strong>Shusaku Egami</strong>
                             <br>
                             <em>Scientometrics</em>, InTechOpen, ISBN 978-1-78923-306-3, 2018
                             <br><a href="https://warp.ndl.go.jp/info:ndljp/pid/11376099/jipsti.jst.go.jp/foresight/mapping_science/content-based_map/">project page</a> /
-                            <br> DOI: <a href="http://doi.org/10.5772/intechopen.77067">http://doi.org/10.5772/intechopen.77067</a> (open access)
+                            <br> DOI: <a itemprop="sameAs" href="http://doi.org/10.5772/intechopen.77067">http://doi.org/10.5772/intechopen.77067</a> (open access)
                             <p>
                                 This article proposes a content-based method of locating research articles/projects in a multi-dimensional space using word/paragraph embedding.
                             </p>
